@@ -10,6 +10,8 @@ logging:
       hibernate: INFO
 
 spring:
+  jpa:
+    open-in-view: false
   datasource:
     url: jdbc:mysql://retail-products.cnpr9ukaae9u.us-east-1.rds.amazonaws.com:3306/PRODUCTS_DB
     username: products
